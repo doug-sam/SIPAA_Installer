@@ -1,0 +1,44 @@
+C:\Alcatel SIPAA\SipAAInstaller\bin\Debug\SipAAInstaller.exe
+C:\Alcatel SIPAA\SipAAInstaller\bin\Debug\SipAAInstaller.pdb
+C:\Alcatel SIPAA\SipAAInstaller\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Alcatel SIPAA\SipAAInstaller\obj\x86\Debug\SipAAInstaller.FmSipAAInstaller.resources
+C:\Alcatel SIPAA\SipAAInstaller\obj\x86\Debug\SipAAInstaller.Properties.Resources.resources
+C:\Alcatel SIPAA\SipAAInstaller\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Alcatel SIPAA\SipAAInstaller\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Alcatel SIPAA\SipAAInstaller\obj\x86\Debug\SipAAInstaller.exe
+C:\Alcatel SIPAA\SipAAInstaller\obj\x86\Debug\SipAAInstaller.pdb
+C:\Alcatel SIPAA\SipAAInstaller\bin\Debug\SipAAInstaller.exe.config
+C:\Alcatel SIPAA\SipAAInstaller\bin\Debug\SipAAInstaller.exe.manifest
+C:\Alcatel SIPAA\SipAAInstaller\bin\Debug\SipAAInstaller.application
+C:\Alcatel SIPAA\SipAAInstaller\obj\x86\Debug\SipAAInstaller.TrustInfo.xml
+C:\Alcatel SIPAA\SipAAInstaller\obj\x86\Debug\SipAAInstaller.exe.manifest
+C:\Alcatel SIPAA\SipAAInstaller\obj\x86\Debug\SipAAInstaller.application
+E:\VS2010\Projects\SipAAInstaller\bin\Debug\SipAAInstaller.exe.config
+E:\VS2010\Projects\SipAAInstaller\obj\x86\Debug\SipAAInstaller.exe
+E:\VS2010\Projects\SipAAInstaller\obj\x86\Debug\SipAAInstaller.pdb
+E:\VS2010\Projects\SipAAInstaller\bin\Debug\SipAAInstaller.exe.manifest
+E:\VS2010\Projects\SipAAInstaller\bin\Debug\SipAAInstaller.application
+E:\VS2010\Projects\SipAAInstaller\bin\Debug\SipAAInstaller.exe
+E:\VS2010\Projects\SipAAInstaller\bin\Debug\SipAAInstaller.pdb
+E:\VS2010\Projects\SipAAInstaller\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\VS2010\Projects\SipAAInstaller\obj\x86\Debug\SipAAInstaller.FmSipAAInstaller.resources
+E:\VS2010\Projects\SipAAInstaller\obj\x86\Debug\SipAAInstaller.Properties.Resources.resources
+E:\VS2010\Projects\SipAAInstaller\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\VS2010\Projects\SipAAInstaller\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\VS2010\Projects\SipAAInstaller\obj\x86\Debug\SipAAInstaller.TrustInfo.xml
+E:\VS2010\Projects\SipAAInstaller\obj\x86\Debug\SipAAInstaller.exe.manifest
+E:\VS2010\Projects\SipAAInstaller\obj\x86\Debug\SipAAInstaller.application
+E:\SipAAInstaller\bin\Debug\SipAAInstaller.exe.config
+E:\SipAAInstaller\obj\x86\Debug\SipAAInstaller.exe
+E:\SipAAInstaller\obj\x86\Debug\SipAAInstaller.pdb
+E:\SipAAInstaller\bin\Debug\SipAAInstaller.exe.manifest
+E:\SipAAInstaller\bin\Debug\SipAAInstaller.application
+E:\SipAAInstaller\bin\Debug\SipAAInstaller.exe
+E:\SipAAInstaller\bin\Debug\SipAAInstaller.pdb
+E:\SipAAInstaller\obj\x86\Debug\SipAAInstaller.csprojResolveAssemblyReference.cache
+E:\SipAAInstaller\obj\x86\Debug\SipAAInstaller.FmSipAAInstaller.resources
+E:\SipAAInstaller\obj\x86\Debug\SipAAInstaller.Properties.Resources.resources
+E:\SipAAInstaller\obj\x86\Debug\SipAAInstaller.csproj.GenerateResource.Cache
+E:\SipAAInstaller\obj\x86\Debug\SipAAInstaller.TrustInfo.xml
+E:\SipAAInstaller\obj\x86\Debug\SipAAInstaller.exe.manifest
+E:\SipAAInstaller\obj\x86\Debug\SipAAInstaller.application
