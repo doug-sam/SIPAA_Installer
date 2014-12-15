@@ -205,7 +205,7 @@
             this.Controls.Add(this.buttonInstall);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FmSipAAInstaller";
-            this.Text = "SipAA Installer";
+            this.Text = "SIPAA 版本 1.0 安装程序";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.FmSipAAInstaller_Load);
             this.ResumeLayout(false);
