@@ -66,7 +66,7 @@ namespace SipAAInstaller
         }
 
         /**
-         * 设置一个服务启动项为自动（延迟启动）
+         * 设置一个服务启动项为自动（延迟启动）重启后才生效
          * ZQL  
          * */
         public static void ChangeServiceStartType(string serviceName)

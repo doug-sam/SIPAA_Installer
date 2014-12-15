@@ -42,3 +42,6 @@ E:\SipAAInstaller\obj\x86\Debug\SipAAInstaller.csproj.GenerateResource.Cache
 E:\SipAAInstaller\obj\x86\Debug\SipAAInstaller.TrustInfo.xml
 E:\SipAAInstaller\obj\x86\Debug\SipAAInstaller.exe.manifest
 E:\SipAAInstaller\obj\x86\Debug\SipAAInstaller.application
+E:\VS2010\Projects\SIPAA_Installer\bin\Debug\SipAAInstaller.exe.config
+E:\VS2010\Projects\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.exe
+E:\VS2010\Projects\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.pdb
