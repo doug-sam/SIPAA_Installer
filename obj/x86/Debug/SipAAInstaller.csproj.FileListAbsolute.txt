@@ -57,3 +57,6 @@ E:\VS2010\Projects\SIPAA_Installer\obj\x86\Debug\GenerateResource.write.1.tlog
 E:\VS2010\Projects\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.TrustInfo.xml
 E:\VS2010\Projects\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.exe.manifest
 E:\VS2010\Projects\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.application
+C:\SIPAA_Installer\bin\Debug\SipAAInstaller.exe.config
+C:\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.exe
+C:\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.pdb
