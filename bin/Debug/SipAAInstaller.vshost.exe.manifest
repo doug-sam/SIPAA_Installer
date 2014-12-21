@@ -45,17 +45,45 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SipAAInstaller.exe" size="22016">
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.SQLite" version="1.0.94.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.SQLite.Linq" version="1.0.94.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SipAAInstaller.exe" size="23040">
       <assemblyIdentity name="SipAAInstaller" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>5yqN4qpJnP7C2UTC34xlsiNFZlw=</dsig:DigestValue>
+        <dsig:DigestValue>0XmvQGD/FqslZ0KBnvt6+EIV7wY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="logfile.conf.xml" size="1181" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MLrQ7Mq4BwKPuZsfsWHEWCvW3o8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="public.xml" size="2681" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FTWhCn104bX5SL8uXdM7qW0QT5Q=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="SipAAInstaller.exe.config" size="144">
     <hash>
       <dsig:Transforms>

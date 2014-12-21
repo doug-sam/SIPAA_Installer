@@ -60,3 +60,9 @@ E:\VS2010\Projects\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.application
 C:\SIPAA_Installer\bin\Debug\SipAAInstaller.exe.config
 C:\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.exe
 C:\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.pdb
+E:\VS2010\Projects\SIPAA_Installer\bin\Debug\logfile.conf.xml
+E:\VS2010\Projects\SIPAA_Installer\bin\Debug\public.xml
+E:\VS2010\Projects\SIPAA_Installer\bin\Debug\sipaa.lua
+E:\VS2010\Projects\SIPAA_Installer\bin\Debug\sipaacfg.db
+E:\VS2010\Projects\SIPAA_Installer\bin\Debug\sipaarecs.db
+E:\VS2010\Projects\SIPAA_Installer\bin\Debug\tsimplify.lua

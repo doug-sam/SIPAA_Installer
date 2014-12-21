@@ -7,14 +7,14 @@
     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="SipAAInstaller.exe.manifest" size="4155">
+    <dependentAssembly dependencyType="install" codebase="SipAAInstaller.exe.manifest" size="5561">
       <assemblyIdentity name="SipAAInstaller.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>32Z2EhQrJuzzeT4kqF6n5ElGyTQ=</dsig:DigestValue>
+        <dsig:DigestValue>xgIyhhu6Odb7pav3NtED7Y3cUgI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -13,6 +13,7 @@ using System.Security.AccessControl;
 using System.Security.Principal;
 using Microsoft.Win32;
 using System.Xml;
+using System.Data.SQLite;
 
 
 namespace SipAAInstaller
@@ -257,7 +258,60 @@ namespace SipAAInstaller
 
             return ExistsDb && ExistsScripts && ExistsConf & ExistsConfdialplan;
         }
+        /**
+         * 判断系统版本
+         * */
+        public static bool CheckSysVersion(string path)
+        {
+            string pathDb = path + "db\\sipaacfg.db";
+            if (!File.Exists(pathDb))//sipaacfg.db不存在，允许安装
+            { 
+                return true; 
+            }
+            else 
+            {
+                string connectString = @"Data Source=" + pathDb + ";FailIfMissing=false";  //Pooling=true;
+                SQLiteConnection conn = new SQLiteConnection(connectString); //新建一个连接
 
+                conn.Open();  //打开连接,如果sipaacfg.db存在就正常打开,如果不存在则创建一个sipaacfg.db文件
+                SQLiteCommand cmd = conn.CreateCommand();
+
+                cmd.CommandText = "select optionvalue from sysoptions where optiontext = 'SYSTEM_VERSION'";
+
+                cmd.CommandType = CommandType.Text;
+
+                bool CheckResult = true;
+                
+                using (SQLiteDataReader reader = cmd.ExecuteReader())
+                {
+
+                    if (!reader.Read())//system_version没有值，允许安装
+                    {
+                        CheckResult = true;
+                           
+                    }
+                    else if (reader[0].ToString() == "1.0" || reader[0].ToString() == "")//system_version值为1.0或为""，允许安装
+                    {
+                        CheckResult = true;
+                            
+                    }
+                    else
+                    {
+                        CheckResult = false;
+                            
+                    }
+                          
+                }
+                cmd = null;
+                conn.Close();
+                SQLiteConnection.ClearPool(conn);
+                GC.Collect();
+                return CheckResult;
+                }
+
+            }
+        
+        
         /**
          * 备份文件
          * ZQL  
@@ -654,17 +708,25 @@ namespace SipAAInstaller
             }
             else
             {
-                //当前安装程序所在的目录
-                string CurrentPath = System.Environment.CurrentDirectory;
-                //备份文件
-                BackupCopy(FSpath, CurrentPath);
-                //替换文件
-                NewFileCopy(FSpath, CurrentPath);
+                if (!CheckSysVersion(FSpath))
+                {
+                    labelInfo.Text = "安装的FreeSWITCH的版本是1.0不能继续安装，请点击“取消”退出安装。";
+                    ContinueCopy.Visible = false;
+                }
+                else
+                {
+                    //当前安装程序所在的目录
+                    string CurrentPath = System.Environment.CurrentDirectory;
+                    //备份文件
+                    BackupCopy(FSpath, CurrentPath);
+                    //替换文件
+                    NewFileCopy(FSpath, CurrentPath);
 
-                labelInfo.Text = "文件部署成功。";
-                ContinueCopy.Visible = false;
+                    labelInfo.Text = "文件部署成功。";
+                    ContinueCopy.Visible = false;
 
-                Cancel.Text = "退出程序";
+                    Cancel.Text = "退出程序";
+                }
 
             }
 

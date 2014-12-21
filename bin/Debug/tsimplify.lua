@@ -11,7 +11,7 @@ local dbh_recs = freeswitch.Dbh("sqlite://"..dbdir.."/sipaarecs.db")
 
 local function record_call()
 	endtimetable = os.date("*t", os.time())
-	end_time = string.format("%d-%d-%d %d:%d:%d", endtimetable.year, endtimetable.month, endtimetable.day, endtimetable.hour, endtimetable.min, endtimetable.sec)
+	end_time = string.format("%4d-%02d-%02d %02d:%02d:%02d.000", endtimetable.year, endtimetable.month, endtimetable.day, endtimetable.hour, endtimetable.min, endtimetable.sec)
 
 	sql = string.format("INSERT INTO TransferRecords(StartDatetime, Enddatetime, Ani, UUID, SipIP, SipNo, Flag) VALUES(\'%s\', \'%s\', \'%s\', \'%s\', \'%s\', \'%s\', 1)", start_date .. " " .. start_time, end_time, ani, objectuuid, sipip, sipno)
 dbh_recs:query(sql)
