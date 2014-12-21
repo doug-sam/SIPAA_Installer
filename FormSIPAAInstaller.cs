@@ -259,14 +259,17 @@ namespace SipAAInstaller
             return ExistsDb && ExistsScripts && ExistsConf & ExistsConfdialplan;
         }
         /**
-         * 判断系统版本
+         * 判断SIPAA系统版本
+         * ZQL
          * */
-        public static bool CheckSysVersion(string path)
+        public static bool CheckSysVersion(string path,out string SIPAAversion)
         {
             string pathDb = path + "db\\sipaacfg.db";
             if (!File.Exists(pathDb))//sipaacfg.db不存在，允许安装
-            { 
-                return true; 
+            {
+                SIPAAversion = null;
+                return true;
+                
             }
             else 
             {
@@ -287,16 +290,19 @@ namespace SipAAInstaller
 
                     if (!reader.Read())//system_version没有值，允许安装
                     {
+                        SIPAAversion = null;
                         CheckResult = true;
                            
                     }
                     else if (reader[0].ToString() == "1.0" || reader[0].ToString() == "")//system_version值为1.0或为""，允许安装
                     {
+                        SIPAAversion = null;
                         CheckResult = true;
                             
                     }
                     else
                     {
+                        SIPAAversion = reader[0].ToString();
                         CheckResult = false;
                             
                     }
@@ -708,9 +714,10 @@ namespace SipAAInstaller
             }
             else
             {
-                if (!CheckSysVersion(FSpath))
+                string SIPAAversion;
+                if (!CheckSysVersion(FSpath, out SIPAAversion))
                 {
-                    labelInfo.Text = "安装的FreeSWITCH的版本是1.0不能继续安装，请点击“取消”退出安装。";
+                    labelInfo.Text = "安装的SIPAA的版本是" + SIPAAversion + "，不是1.0，不能继续安装，请点击“取消”退出安装。";
                     ContinueCopy.Visible = false;
                 }
                 else
