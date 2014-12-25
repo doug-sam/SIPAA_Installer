@@ -66,3 +66,26 @@ E:\VS2010\Projects\SIPAA_Installer\bin\Debug\sipaa.lua
 E:\VS2010\Projects\SIPAA_Installer\bin\Debug\sipaacfg.db
 E:\VS2010\Projects\SIPAA_Installer\bin\Debug\sipaarecs.db
 E:\VS2010\Projects\SIPAA_Installer\bin\Debug\tsimplify.lua
+C:\Alcatel SIPAA\SIPAA_Installer\bin\Debug\SipAAInstaller.exe.config
+C:\Alcatel SIPAA\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.exe
+C:\Alcatel SIPAA\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.pdb
+C:\Alcatel SIPAA\SIPAA_Installer\bin\Debug\logfile.conf.xml
+C:\Alcatel SIPAA\SIPAA_Installer\bin\Debug\public.xml
+C:\Alcatel SIPAA\SIPAA_Installer\bin\Debug\sipaa.lua
+C:\Alcatel SIPAA\SIPAA_Installer\bin\Debug\sipaacfg.db
+C:\Alcatel SIPAA\SIPAA_Installer\bin\Debug\sipaarecs.db
+C:\Alcatel SIPAA\SIPAA_Installer\bin\Debug\tsimplify.lua
+C:\Alcatel SIPAA\SIPAA_Installer\bin\Debug\SipAAInstaller.exe.manifest
+C:\Alcatel SIPAA\SIPAA_Installer\bin\Debug\SipAAInstaller.application
+C:\Alcatel SIPAA\SIPAA_Installer\bin\Debug\SipAAInstaller.exe
+C:\Alcatel SIPAA\SIPAA_Installer\bin\Debug\SipAAInstaller.pdb
+C:\Alcatel SIPAA\SIPAA_Installer\bin\Debug\System.Data.SQLite.dll
+C:\Alcatel SIPAA\SIPAA_Installer\bin\Debug\System.Data.SQLite.pdb
+C:\Alcatel SIPAA\SIPAA_Installer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Alcatel SIPAA\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.FmSipAAInstaller.resources
+C:\Alcatel SIPAA\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.Properties.Resources.resources
+C:\Alcatel SIPAA\SIPAA_Installer\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Alcatel SIPAA\SIPAA_Installer\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Alcatel SIPAA\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.TrustInfo.xml
+C:\Alcatel SIPAA\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.exe.manifest
+C:\Alcatel SIPAA\SIPAA_Installer\obj\x86\Debug\SipAAInstaller.application
